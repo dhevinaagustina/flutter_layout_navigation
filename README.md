@@ -87,3 +87,26 @@ Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tamb
 ### Langkah 7: Menambahkan aksi pada ListView
 ![Screenshot layout_flutter](images/ss23.png)
 ![Screenshot layout_flutter](images/ss24.png)
+
+## Tugas Praktikum 2
+### 1. Untuk melakukan pengiriman data ke halaman berikutnya, cukup menambahkan informasi arguments pada penggunaan Navigator. Perbarui kode pada bagian Navigator menjadi seperti berikut.
+![Screenshot layout_flutter](images/ss25.png)
+
+### 2. Pembacaan nilai yang dikirimkan pada halaman sebelumnya dapat dilakukan menggunakan ModalRoute. Tambahkan kode berikut pada blok fungsi build dalam halaman ItemPage. Setelah nilai didapatkan, anda dapat menggunakannya seperti penggunaan variabel pada umumnya. (https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments)
+![Screenshot layout_flutter](images/ss26.png)
+
+### 3. Pada hasil akhir dari aplikasi belanja yang telah anda selesaikan, tambahkan atribut foto produk, stok, dan rating. Ubahlah tampilan menjadi GridView seperti di aplikasi marketplace pada umumnya.
+![Screenshot layout_flutter](images/ss28.png)
+![Screenshot layout_flutter](images/ss29.png)
+![Screenshot layout_flutter](images/ss30.png)
+
+### 4. Silakan implementasikan Hero widget pada aplikasi belanja Anda dengan mempelajari dari sumber ini:
+![Screenshot layout_flutter](images/ss31.png)
+
+### 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
+![Screenshot layout_flutter](images/record01.gif)
+
+### 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+![Screenshot layout_flutter](images/ss32.png)
+![Screenshot layout_flutter](images/ss33.png)
+![Screenshot layout_flutter](images/ss34.png)
