@@ -52,3 +52,14 @@ Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tamb
 ![Screenshot layout_flutter](images/ss10.png)
 
 ![Screenshot layout_flutter](images/ss11.png)
+
+## Praktikum 4: Implementasi image section
+### Langkah 1: Siapkan aset gambar
+![Screenshot layout_flutter](images/ss12.png)
+
+### Langkah 2: Tambahkan gambar ke body
+![Screenshot layout_flutter](images/ss13.png)
+
+### Langkah 3: Terakhir, ubah menjadi ListView
+![Screenshot layout_flutter](images/ss14.png)
+![Screenshot layout_flutter](images/ss15.png)
