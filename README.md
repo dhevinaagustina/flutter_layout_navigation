@@ -63,3 +63,27 @@ Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tamb
 ### Langkah 3: Terakhir, ubah menjadi ListView
 ![Screenshot layout_flutter](images/ss14.png)
 ![Screenshot layout_flutter](images/ss15.png)
+
+## Praktikum 5: Membangun Navigasi di Flutter
+### Langkah 1: Siapkan project baru
+![Screenshot layout_flutter](images/ss16.png)
+
+### Langkah 2: Mendefinisikan Route
+![Screenshot layout_flutter](images/ss17.png)
+
+### Langkah 3: Lengkapi Kode di main.dart
+![Screenshot layout_flutter](images/ss18.png)
+
+### Langkah 4: Membuat data model
+![Screenshot layout_flutter](images/ss19.png)
+
+### Langkah 5: Lengkapi kode di class HomePage
+![Screenshot layout_flutter](images/ss20.png)
+
+### Langkah 6: Membuat ListView dan itemBuilder
+![Screenshot layout_flutter](images/ss21.png)
+![Screenshot layout_flutter](images/ss22.png)
+
+### Langkah 7: Menambahkan aksi pada ListView
+![Screenshot layout_flutter](images/ss23.png)
+![Screenshot layout_flutter](images/ss24.png)
