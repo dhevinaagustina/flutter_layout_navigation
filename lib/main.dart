@@ -77,6 +77,24 @@ class MyApp extends StatelessWidget {
         _buildButtonColumn(color, Icons.share, 'SHARE'),
       ],
     );
+    Widget textSection = Container(
+      padding: const EdgeInsets.all(32),
+      child: const Text(
+        'Wisata Gunung di Batu merupakan destinasi favorit di Kota Malang. '
+        'Dengan udara sejuk, panorama pegunungan, dan suasana alami, '
+        'tempat ini menjadi pilihan tepat untuk melepas penat dari rutinitas harian.\n\n'
+        'Tugas Flutter Layout\n'
+        'Dhevina Agustina (2341760065)',
+        softWrap: true,
+        textAlign: TextAlign.justify,
+        style: TextStyle(
+          fontSize: 16,
+          height: 1.5,
+          color: Colors.black87,
+        ),
+      ),
+    );
+
 
     return MaterialApp(
       title: 'Flutter layout: Dhevina Agustina (2341760065)',
@@ -88,6 +106,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection, 
             buttonSection,
+            textSection,
           ],
         ),
 

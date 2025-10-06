@@ -43,3 +43,12 @@ lib/main.dart (buttonSection)
 ### Langkah 3: Tambah button section ke body
 ![Screenshot layout_flutter](images/ss07.png)
 ![Screenshot layout_flutter](images/ss08.png)
+
+## Praktikum 3: Implementasi text section
+### Langkah 1: Buat widget textSection
+Tentukan bagian teks sebagai variabel. Masukkan teks ke dalam Container dan tambahkan padding di sepanjang setiap tepinya. Tambahkan kode berikut tepat di bawah deklarasi buttonSection:
+![Screenshot layout_flutter](images/ss09.png)
+### Langkah 2: Tambahkan variabel text section ke body
+![Screenshot layout_flutter](images/ss10.png)
+
+![Screenshot layout_flutter](images/ss11.png)
