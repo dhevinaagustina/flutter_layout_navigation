@@ -1,0 +1,63 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(const MyApp());
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    // Widget titleSection berisi bagian judul dan ikon
+    Widget titleSection = Container(
+      padding: const EdgeInsets.all(32), // padding 32 di semua sisi
+      child: Row(
+        children: [
+          Expanded(
+            // soal 1: gunakan Expanded agar Column menyesuaikan ruang di Row
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start, // rata kiri
+              children: [
+                // soal 2: Container untuk teks pertama dengan padding bawah 8
+                Container(
+                  padding: const EdgeInsets.only(bottom: 8),
+                  child: const Text(
+                    'Wisata Gunung di Batu',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                const Text(
+                  'Batu, Malang, Indonesia',
+                  style: TextStyle(
+                    color: Colors.grey, // teks abu-abu
+                  ),
+                ),
+              ],
+            ),
+          ),
+          // soal 3: ikon bintang merah dan teks "41"
+          const Icon(
+            Icons.star,
+            color: Colors.red,
+          ),
+          const Text('41'),
+        ],
+      ),
+    );
+
+    return MaterialApp(
+      title: 'Flutter layout: Dhevina Agustina (2341760065)',
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Flutter layout demo'),
+        ),
+        body: Column(
+          children: [
+            titleSection, // ganti Hello World dengan variabel titleSection
+          ],
+        ),
+      ),
+    );
+  }
+}
